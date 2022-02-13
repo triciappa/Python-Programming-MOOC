@@ -1,2 +1,2 @@
 # Python-Programming-MOOC
-Exercises from a Phyton programmin course
+Exercises from a Phyton programming course
