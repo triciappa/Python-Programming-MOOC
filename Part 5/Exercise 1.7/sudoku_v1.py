@@ -1,3 +1,15 @@
+# Requirements:
+
+# Please write a function named sudoku_grid_correct(sudoku: list), 
+# which takes a two-dimensional array representing a sudoku grid as 
+# its argument.
+
+# The function should check each of the nine rows, columns and 3 by 3 blocks 
+# in the grid. If all contain each of the numbers 1 to 9 at most once, the 
+# function returns True. If a single one is filled in incorrectly, the function 
+# returns False.
+
+
 def row_correct(sudoku: list, row_no: int):
     for square in sudoku[row_no]:
         if square > 0:
